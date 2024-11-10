@@ -1,0 +1,29 @@
+.card {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-size: 1rem;
+    color: #333;
+  }
+  

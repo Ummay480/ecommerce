@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns for the first row */
+  gap: 10px; /* Space between items */
+  margin: 10px; /* Optional: margin around the grid */
+}
+
+.grid > :nth-child(n) {
+  width: 100%; /* Make each item take the full width of the grid cell */
+}
+
+.grid > :nth-child(4) {
+  grid-column: span 2; /* The 4th item will take up the first 2 columns in the second row */
+}
+
+.grid > :nth-child(5) {
+  grid-column: 3; /* The 5th item will take up the last column in the second row */
+}

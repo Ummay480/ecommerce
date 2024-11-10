@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px 20px; /* Adjusted left and right padding */
+  background-color: #fff; /* Adjust as needed */
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+  color: #438DB8; /* Logo color */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  color: #666666; /* Menu item color */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.register-button {
+  background-color: white; /* Make button background transparent */
+  border: 1px solid #666666; /* Border color for Register/Login button */
+  color: #666666; /* Text color */
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Center the icon vertically */
+}
+
+.user-icon {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.icon-button {
+  background-color: transparent; /* Transparent background */
+  border: 2px solid #666666; /* Border color for Cart and Search icons */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  margin-left: 10px; /* Space between icons */
+ 
+}
+
+.icon {
+  fill: transparent; /* Make the icon fill transparent */
+  stroke: rgba(0, 0, 0, 0.5); /* Change stroke color to semi-transparent black */
+  transition: stroke 0.3s; /* Add transition for hover effect */
+}
+
+.icon-button:hover .icon {
+  stroke: rgba(0, 0, 0, 1); /* Fully opaque on hover */
+}
